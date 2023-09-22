@@ -1,0 +1,19 @@
+#stuff{
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#stuff > .card {
+    
+    max-height: 300px;
+    max-width: 200px;
+    display: flex;
+    /* margin: 5px; */
+}
+
+.card > img{
+    max-width: 100px;
+    max-height: 100px;
+}
